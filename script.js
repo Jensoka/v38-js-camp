@@ -69,6 +69,67 @@ for (const route of routes) {
 /* function triple(n) {
   return n * 3;
 } */
-
+/* 
 const double = (n) => n * 2 + 5;
-console.log(double(10));
+console.log(double(10)); // samma jobb, annan stavning
+ */
+
+/* Skapa en array med minst 4 egna strängar och loopa dem med for...of.
+
+Skapa ett objekt (t.ex. { title, urgency, isOpen }). Logga två egenskaper.
+
+Skriv en function som tar emot två tal (eller title + prefix) och returnerar något du loggar.
+
+En if/else if/else utifrån urgency eller liknande. */
+
+/* const maten = ["Kyckling", "Pommes", "Korv", "Rotfrukter"];
+for (const mat of maten) {
+  console.log(mat);
+}
+
+const matiugn = { title: "Ta ut", urgency: 1, isOpen: true };
+console.log(matiugn.title);
+console.log(matiugn.isOpen); 
+
+function () {
+  if (age >= 18) {
+    return "Can vote";
+  } else {
+    return "Can not Vote";
+  }
+}
+console.log(canVote(17));*/
+/* 
+function canVote(age) {
+  if (age >= 18) {
+    return "Can vote";
+  } else {
+    return "Can not Vote";
+  }
+}
+console.log(canVote(17));
+
+const maten = ["Kyckling", "Pommes", "Korv", "Rotfrukter"];
+for (const mat of maten) {
+  console.log(mat);
+} */
+
+/* onst note = { title: "Ta ut", urgency: 1, isOpen: true };
+/* console.log(note.title);
+console.log(note.isOpen); */
+
+/* function label(ett, tvo) {
+  return ett + ": " + tvo;
+}
+console.log(label("Idag", note.title)); // "Idag: " Ta ut
+
+ */
+const note = { title: "Ta ut", urgency: 100, isOpen: true };
+
+if (note.urgency === 1) {
+  console.log("TA UT NU");
+} else if (note.urgency === 2) {
+  console.log("En stund till");
+} else {
+  console.log("Chilla");
+}
