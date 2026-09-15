@@ -57,3 +57,5 @@ if (tempC > 0) {
 } else {
   console.log("svinkallt");
 }
+
+// Test test test We will remove this line later
