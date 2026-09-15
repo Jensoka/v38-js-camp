@@ -46,7 +46,8 @@ for (const city of cities) {
 }
  */
 
-const tempC = 5;
+//
+/*const tempC = 5;
 
 if (tempC > 0) {
   console.log("varmt");
@@ -58,14 +59,16 @@ if (tempC > 0) {
   console.log("svinkallt");
 }
 
-// Test test test We will remove this line later
-// Test test test We will remove this line later
+ */
 
-// Test test test We will remove this line later
-// Test test test We will remove this line later
+/* const routes = ["Linje 2", "Linje 5", "Linje 8"];
+for (const route of routes) {
+  console.log("Avgår: ", route);
+}
+ */
+/* function triple(n) {
+  return n * 3;
+} */
 
-// Test test test We will remove this line later
-// Test test test We will remove this line later
-
-// Test test test We will remove this line later
-// Test test test We will remove this line later
+const double = (n) => n * 2 + 5;
+console.log(double(10));
