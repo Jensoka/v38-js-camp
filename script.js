@@ -31,7 +31,7 @@ else {
 console.log(shipping);
  */
 //Array
-const cities = ["Malmö", "Göteborg"];
+/* const cities = ["Malmö", "Göteborg"];
 console.log(cities[1]);
 console.log(cities.length);
 
@@ -43,4 +43,17 @@ console.log(product.stock);
 
 for (const city of cities) {
   console.log(city);
+}
+ */
+
+const tempC = 5;
+
+if (tempC > 0) {
+  console.log("varmt");
+} else if (tempC >= 10) {
+  console.log("ljummet");
+} else if (tempC >= 0) {
+  console.log("kallt");
+} else {
+  console.log("svinkallt");
 }
