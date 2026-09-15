@@ -6,12 +6,12 @@ console.log("Nord Glow");
 
  */
 
-const eventName = "Thapa live";
-let ticketCount = 0;
+/* 
 
-console.log(eventName);
-console.log(eventName);
-ticketCount = 10;
-console.log(ticketCount);
-const isVip = false;
-console.log(isVip);
+*/
+function totalMinutes(hours, minutes) {
+  hours * 60 + minutes;
+}
+
+const travel = totalMinutes(2, 15);
+console.log(travel); // 135
